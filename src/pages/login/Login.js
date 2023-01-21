@@ -57,7 +57,7 @@ const Login = () => {
 
     const handleVerify = async() => {
         if(formData.username === ""){
-            return setErr("Enter your username");
+            return setErr("Enter your username, please");
         }
 
         setLoading(true);
